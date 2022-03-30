@@ -164,13 +164,13 @@ Jon Schmidt</text>
 <text x="5.08" y="56.515" size="1.4224" layer="51" font="vector">BROWN</text>
 <text x="91.44" y="58.42" size="1.4224" layer="51" font="vector" rot="R180">V1.0 20220314</text>
 <text x="34.29" y="40.64" size="1.778" layer="51" font="vector">Arduino Nano</text>
-<text x="91.44" y="62.23" size="1.4224" layer="51" font="vector" rot="R180">Grade XING Breakout</text>
+<text x="91.44" y="62.23" size="1.4224" layer="51" font="vector" rot="R180">Grade Xing Breakout</text>
 <text x="43.18" y="60.96" size="2.794" layer="51" font="vector" ratio="10">+GBG+L+L
 5NLN5152</text>
 <text x="10.795" y="1.27" size="2.794" layer="52" font="vector" ratio="10">0+1+2+3+</text>
 <text x="33.655" y="1.27" size="2.794" layer="52" font="vector" ratio="10">4+5+6+7+</text>
 <text x="59.055" y="3.81" size="3.81" layer="51" font="vector" ratio="10">5G5G</text>
-<text x="76.835" y="3.81" size="3.81" layer="51" font="vector" ratio="10">5DVC</text>
+<text x="76.835" y="3.81" size="3.81" layer="51" font="vector" ratio="10">5VDC</text>
 <text x="10.16" y="1.27" size="2.794" layer="51" font="vector" ratio="10">05152535</text>
 <text x="33.02" y="1.27" size="2.794" layer="51" font="vector" ratio="10">45556575</text>
 </plain>
@@ -606,6 +606,30 @@ given to customers in the State of California</text>
 </package>
 </packages>
 </library>
+<library name="MRCSLogoTop">
+<description>Model Railroad Control Systems LOGO</description>
+<packages>
+<package name="MRCSLOGOTOP">
+<description>Model Railroad Control Systems LOGO</description>
+<wire x1="0.762" y1="0.508" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="0.508" x2="1.778" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="4.826" x2="2.159" y2="3.937" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="4.826" width="0.127" layer="51"/>
+<wire x1="1.27" y1="4.826" x2="1.27" y2="3.175" width="0.127" layer="51"/>
+<wire x1="1.27" y1="3.175" x2="1.27" y2="1.524" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="3.175" x2="2.286" y2="3.175" width="0.3048" layer="51"/>
+<text x="2.54" y="4.191" size="1.016" layer="51">M</text>
+<text x="3.175" y="2.921" size="1.016" layer="51">R</text>
+<text x="3.81" y="1.651" size="1.016" layer="51">C</text>
+<text x="4.445" y="0.381" size="1.016" layer="51">S</text>
+<text x="5.334" y="0.635" size="0.6096" layer="51">ystems</text>
+<text x="4.699" y="1.905" size="0.6096" layer="51">ontrol</text>
+<text x="4.064" y="3.175" size="0.6096" layer="51">ailroad</text>
+<text x="3.683" y="4.445" size="0.6096" layer="51">odel</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -843,6 +867,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="MRCS-prop65warningBtm" package="CA-PROP65WARNING" value="" x="46.99" y="50.8"/>
 <element name="J2" library="SPCoast" package="1X08_LOCK" value="Unused I/O" x="5.08" y="43.18" rot="R270"/>
+<element name="U$3" library="MRCSLogoTop" package="MRCSLOGOTOP" value="" x="69.85" y="45.72"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1134,6 +1159,18 @@ design rules under a new name.</description>
 <wire x1="3.81" y1="27.94" x2="5.207" y2="27.94" width="0.3048" layer="16"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,16,0502cfe10d9d851c"/>
+<approved hash="3,16,350657e4819fb118"/>
+<approved hash="3,16,4a0258e85ad24838"/>
+<approved hash="3,1,4a0258e85ad24838"/>
+<approved hash="19,16,66ff0f661e4c1f61"/>
+<approved hash="19,16,07b618e998a577fd"/>
+<approved hash="19,16,66784eada6fd8303"/>
+<approved hash="19,16,1f9ec6dd569105fc"/>
+<approved hash="19,16,a2e3177eb256476b"/>
+<approved hash="19,16,b47bbeae7af9e338"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
