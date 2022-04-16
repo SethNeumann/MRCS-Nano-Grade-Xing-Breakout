@@ -13,3 +13,6 @@
 *.s#6
 MRCS-Nano-Grade-Xing-Breakout.b#7
 *.dri
+*.TXT
+*.csv
+*.xlsx
