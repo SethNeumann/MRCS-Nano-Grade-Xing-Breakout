@@ -1,7 +1,7 @@
 title: MRCS-Nano-Grade-Xing-Breakout
 designer: Seth Neumann, Job Schmidt
-fabricated: Pick one of   no
-fab_date: YYYY-MM
+fabricated: yes
+fab_date: 2022-03
 status: Pick one of   experimental
 publish: Pick one of  yes
 tags: [MRCS, SPCoast, eagle]
